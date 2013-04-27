@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="index.js"></script>.js#stimmwelten"></script>
+    <script src="http://debug.phonegap.com/target/target-script-min.js#GiftPlanner"></script>
+	</head>
+	<body>
+		<div id="container"  style="width:100%; height:100%; margin: 0 auto"></div>
+
+		<script type="text/javascript" >
+			Highcharts.getOptions().colors = $.map(Highcharts.getOptions().colors, function(color) {
+				return {
+					radialGradient : {
+						cx : 0.5,
+						cy : 0.3,
+						r : 0.7
+					},
+					stops : [[0, color], [1, Highcharts.Color(color).brighten(-0.3).get('rgb')] // darken
+					]
+				};
+			});
+			var chart;
+			var options = {
+				chart : {
+					renderTo : 'container',
+					plotBackgroundColor : null,
+					plotBorderWidth : null,
+					plotShadow : false,
+					margin : 80,
+					backgroundColor : 'transparent'
+				},
+				title : {
+					text : ''
+				},
+				tooltip : {
+					pointFormat : '{point.percentage}%</b>',
+					percentageDecimals : 1
+				},
+				plotOptions : {
+					pie : {
+						allowPointSelect : true,
+						dataLabels : {
+							enabled : true,
+							color : '#ffffff',
+								style : {
+								fontSize : "7pt",
+								fontWeight: 'normal'
+							},
+							width : 40,
+							connectorColor : '#ffff00',
+							formatter : function() {
+								return '<b>' + this.point.name;
+							}
+						}
+					}
+				},
+				series : [{
+					type : 'pie',
+					name : 'Likes'
+
+				}]
+			};
+		</script>
+	</body>
+</html>

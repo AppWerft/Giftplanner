@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+ <string name="TITLE">Title</string>
+ <string name="URL">Web address</string>
+ <string name="PRICE">Price</string>
+ <string name="NOTES">Notes</string>
+ 
+ <string name="TAKEIMAGE">Please select image</string>
+ <string name="FORGETFRIEND_MSG">Are you sure that you\nwant to delete this contact?</string>
+ <string name="FORGETFRIEND_TITLE">Delete contact</string>
+ <string name="GIFTWEG_BUTTON">Delete gift</string>
+ <string name="GIFTWEG_TITLE">Alert!</string>
+ 
+ <string name="BESCHENKTER">Linked to</string>
+ <string name="GIFTWEG_MSG">Are you sure that you\nwant to delete this gift?</string>
+ 
+ <string name="ENTGIFTUNG_TITLE">Alert</string>
+ <string name="ENTGIFTUNG_MSG" formatted="false">Are you sure that you\nwant to delete this gift?\n%s will be without gift.</string> 
+ 
+ <string name="TOTALPRICE">All gifts</string>
+ <string name="TOTALBUDGET">My budget</string> 
+ <string name="LEFTMONEY">Left</string>
+ <string name="IMPORTFRIENDS">Import friends</string>
+ 
+ <string name="TAKEPHOTO">Take photo</string>
+ <string name="LIBRARYCHOOSE">Choose from Library</string>
+ <string name="WEBQR">Get from web via QR</string>
+ <string name="SELECTNEXTSTEP">Add picture</string>
+ <string name="DELETE">Delete</string>
+ <string name="CANCEL">Cancel</string>
+ <string name="MAYBEZOOM">Zoom to fit</string>
+ <string name="GET">Get </string>
+ <string name="MYGIFTIDEAS">Gallery</string>
+ <string name="GIFTIDEA">Gift idea</string>
+ <string name="CHOOSEGIFT">Choose gift</string>
+ <string name="CHANGEGIFT">Change gift</string>
+ <string name="UNLINKGIFT">Release gift</string>
+ <string name="RETRIEVEIDEAS">Retrieve your ideas from database</string>
+ <string name="RETRIEVED">Retrieved, now rendering …</string>
+ <string name="GOTIMAGE">Got image №</string>
+ <string name="MYLUCKIES">My luckies</string>
+ <string name="LUCKY">Lucky one</string>
+ <string name="STATUS">Status</string>
+ <string name="FBLIKESPIE">Likes pie</string>
+ <string name="INLIKES">Look up FB Likes</string>
+ <string name="NOFB_MSG">This function requires an active online connection.</string>
+ 
+ <string name="FBIMPORT">Import from Facebook</string>
+ <string name="ABIMPORT">Import from address book</string>
+ <string name="ACTIONCHOOSE">Choose action</string>
+ <string name="NEWFRIEND">New friend</string>
+ <string name="NAVI_GIFTIDEAS">Gift Gallery</string>
+ <string name="NAVI_LUCKIES">My Luckies</string>
+ <string name="NAVI_BUDGET">My Budget</string>
+ <string name="NAVI_IMPRESSUM">Imprint</string>
+ <string name="HINTNAME">Enter gift name (optional)</string>
+ <string name="HINTPRICE">Enter a price (optional)</string>
+ <string name="HINTNOTES">Enter notes (optional)</string>
+
+</resources>

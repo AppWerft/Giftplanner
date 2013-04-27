@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+ <string name="TITLE">Bezeichnung</string>
+ <string name="URL">Webadresse</string>
+ <string name="PRICE">Preis</string>
+ <string name="NOTES">Notizen</string>
+ 
+ <string name="TAKEIMAGE">Bitte Bild auswählen</string>
+ <string name="FORGETFRIEND_MSG">Bist du sicher, dass du\ndiesen Kontakt löschen möchtest?</string>
+ <string name="FORGETFRIEND_TITLE">Kontakt löschen</string>
+ <string name="GIFTWEG_BUTTON">Geschenkidee löschen</string>
+ <string name="GIFTWEG_TITLE">Achtung!</string>
+
+ <string name="BESCHENKTER">Zugeordnet</string>
+ <string name="GIFTWEG_MSG">Bist du sicher, dass du \ndiese Geschenkidee löschen möchtest?</string> 
+ 
+ <string name="ENTGIFTUNG_TITLE">Achtung!</string>
+ <string name="ENTGIFTUNG_MSG" formatted="false">Bist du sicher, dass du \ndiese Geschenkidee löschen möchtest?\n%s verliert das Geschenk</string> 
+ 
+ <string name="TOTALPRICE">Alle Geschenke</string>
+ <string name="TOTALBUDGET">Geplant</string> 
+ <string name="LEFTMONEY">Übrig</string>
+ <string name="IMPORTFRIENDS">Kontakte importieren</string>
+ 
+ <string name="TAKEPHOTO">Neues Foto aufnehmen</string>
+ <string name="LIBRARYCHOOSE">Vorhandenes auswählen</string>
+ <string name="WEBQR">Webfoto per QR-Code</string>
+ <string name="SELECTNEXTSTEP">Bild auswählen</string>
+ <string name="DELETE">Löschen</string>
+ <string name="CANCEL">Abbrechen</string>
+ <string name="MAYBEZOOM">Bild anpassen</string>
+ <string name="GET">Hole </string>
+ <string name="MYGIFTIDEAS">Galerie</string>
+ <string name="GIFTIDEA">Geschenkidee</string>
+ <string name="CHOOSEGIFT">Geschenk wählen</string>
+ <string name="CHANGEGIFT">Anderes Geschenk</string>
+ <string name="UNLINKGIFT">Geschenk freigeben</string>
+ <string name="RETRIEVEIDEAS">Deine Ideen werden aus der Datenbank geholt.</string>
+ <string name="RETRIEVED">Geladen, muss kurz rechnen …</string>
+ <string name="GOTIMAGE">Bild laden: №</string>
+ <string name="MYLUCKIES">Meine Kontakte</string>
+ <string name="LUCKY">Empfänger</string>
+ <string name="STATUS">Status</string>
+ <string name="FBLIKESPIE">Likes pie</string>
+ <string name="INLIKES">FB Likes ansehen</string>
+ <string name="NOFB_MSG">Diese Funktion erfordert eine aktive Internetverbindung.</string>
+ 
+ <string name="FBIMPORT">Import von Facebook</string>
+ <string name="ABIMPORT">Import aus Kontakten</string>
+ <string name="ACTIONCHOOSE">Verschiedene Importmöglichkeiten</string>
+ <string name="NEWFRIEND">Empfänger hinzufügen</string>
+ <string name="NAVI_GIFTIDEAS">Galerie</string>
+ <string name="NAVI_LUCKIES">Empfänger</string>
+ <string name="NAVI_BUDGET">Budget</string>
+ <string name="NAVI_IMPRESSUM">Impressum</string>
+ <string name="HINTNAME">Geschenknamen eingeben (optional)</string>
+ <string name="HINTPRICE">Preis eingeben (optional)</string>
+ <string name="HINTNOTES">Bescheibung eingeben (optional)</string>
+ 
+</resources>

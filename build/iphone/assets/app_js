@@ -1,0 +1,1 @@
+var MODEL=require('/modules/model');var ui=require('/modules/ui').create(new MODEL);

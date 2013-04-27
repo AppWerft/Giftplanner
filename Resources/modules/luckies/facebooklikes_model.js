@@ -1,0 +1,66 @@
+exports.get = function(_id, _callback) {
+	function getFriendLikes() {
+		var path = '/' + _id + '/likes?locale=de_DE';
+		Ti.Facebook.requestWithGraphPath(path, {}, 'GET', function(_fb) {
+			if (_fb.success) {
+				var result = JSON.parse(_fb.result);
+				if (result.data.length == 0) {
+					_callback(null);
+					return;
+				}
+				var categories = {};
+				var catstotal = {};
+				var total = 0;
+				var catscounter = 0;
+				for (var i = 0; i < result.data.length; i++) {
+					var cat = result.data[i].category;
+					if (!categories[cat]) {
+						categories[cat] = [];
+					}
+					if (!catstotal[cat]) {
+						catscounter += 1;
+						catstotal[cat] = {
+							name : cat,
+							count : 0
+						};
+					}
+					categories[cat].push(result.data[i].name);
+					catstotal[cat].count += 1;
+					total += 1;
+				}
+				if (total > 0) {
+					// array bauen:
+					var catsarray = [];
+					for (var key in catstotal) {
+						var count = Math.floor(catstotal[key].count * 100 / total);
+						var cat = catstotal[key].name;
+						if (count > 1)
+							catsarray.push([cat, count]);
+					}
+				}
+				var res = {
+					catlist : categories,
+					piedata : catsarray
+				};
+				_callback(res);
+			} else {
+				_callback(null);
+			}
+		});
+	}
+
+
+	Ti.Facebook.appid = '202972656504444';
+	Ti.Facebook.permissions = ['read_friendlists', 'user_likes', 'friends_likes'];
+	if (Ti.Facebook.loggedIn == false) {
+		Ti.Facebook.authorize();
+		Ti.Facebook.addEventListener('login', function(_e) {
+			if (_e.success == true) {
+				getFriendLikes();
+			}
+		});
+	} else
+		getFriendLikes();
+};
+
+
